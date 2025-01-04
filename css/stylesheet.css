@@ -1,0 +1,16 @@
+/* Google fonts import */
+.charm-regular {
+    font-family: "Charm", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .charm-bold {
+    font-family: "Charm", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+body{
+    color: teal;
+}
