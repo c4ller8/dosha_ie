@@ -17,22 +17,28 @@
     font-weight: 700;
     font-style: normal;
   }
-  /* default display to darkmode */
+      /*general style rules*/
   body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+     /* default display to darkmode */
     background-color: darkslategrey;
     color: white;
     font-size: 16px;
     line-height: 1.5;
   }
-
+/* header */
   header {
     background-color: green;
   }
-
+/* main */
   main {
     background-color: darkslategrey;
+        /* Make main element take up any surplus space to push footer down */
+    flex: 1 0 auto;
   }
-
+/* footer */
   footer {
     background-color: green;
   }
