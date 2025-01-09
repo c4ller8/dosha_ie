@@ -30,11 +30,24 @@
 
   h1{
     font-family: "Charm", serif;
-    
+
   }
 /* header */
   header {
     background-color: green;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+/* navbar toggle */
+  nav{
+    position: absolute;
+    background-color: white;
+    color: green;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    display: none;
   }
 /* main */
   main {
