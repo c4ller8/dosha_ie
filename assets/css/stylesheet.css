@@ -49,6 +49,10 @@
     padding: 0 1rem;
     display: none;
   }
+  /* Nav toggle */
+#nav-toggle:checked~nav {
+  display: block;
+}
 /* main */
   main {
     background-color: darkslategrey;
