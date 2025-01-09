@@ -12,8 +12,7 @@
     font-style: normal;
   }
   
-  .charm-bold {
-    font-family: "Charm", serif;
+  .charm-bold { font-family: "Charm", serif;
     font-weight: 700;
     font-style: normal;
   }
@@ -27,6 +26,10 @@
     color: white;
     font-size: 16px;
     line-height: 1.5;
+  }
+
+  h1{
+    font-family: "Charm", serif;
   }
 /* header */
   header {
