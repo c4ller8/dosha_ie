@@ -12,6 +12,12 @@
     font-style: normal;
   }
   
-body{
-    color: teal;
+header{
+    background-color: teal;
+}
+main{
+  background-color: darkslategrey;
+}
+footer{
+  background-color: greenyellow;
 }
