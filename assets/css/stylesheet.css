@@ -32,6 +32,17 @@
     font-family: "Charm", serif;
 
   }
+  #menu{
+    font-size: 110%;
+    letter-spacing: 2px;
+    list-style-type: none;
+  }
+  #menu > li{
+    margin-bottom: 1em;
+  }
+  .active{
+    border-bottom: 1px solid green;
+  }
 /* header */
   header {
     background-color: green;
@@ -44,7 +55,7 @@
     justify-content: space-between;
     align-items: baseline;
   }
-  header a{
+  header a {
       text-decoration: none;
       color: inherit;
   }
