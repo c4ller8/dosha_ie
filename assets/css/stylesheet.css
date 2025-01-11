@@ -39,6 +39,10 @@
     justify-content: space-between;
     align-items: baseline;
   }
+  header a{
+      text-decoration: none;
+      color: inherit;
+  }
 /* navbar toggle */
   nav{
     position: absolute;
