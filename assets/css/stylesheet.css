@@ -35,6 +35,11 @@
 /* header */
   header {
     background-color: green;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 4px 4px green;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
