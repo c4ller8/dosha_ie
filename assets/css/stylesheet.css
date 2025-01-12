@@ -109,11 +109,19 @@ h2, h3{
 /* main */
   main {
     background-color: darkgray;
-        /* Make main element take up any surplus space to push footer down */
+    /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 48px;
+    /* Ensures main element takes up available space */
+
+    margin-top: 58px;
+    display: flex;
+    flex-direction: column;
+    /* Arrange content vertically */
+    justify-content: flex-start;
+    /* Align content at the top */
+    width: 100%;
   }
-  
+ 
 /* Footer */
 footer {
   background-color: green;
@@ -135,25 +143,23 @@ footer a {
   white-space: nowrap;
   /* Prevent links from wrapping individually */
 }
-/* Media query for small screens */
+
+/* Media query for small screens (up to 767px) */
 @media screen and (max-width: 767px) {
   footer {
-    flex-wrap: nowrap;
-    /* Prevent wrapping */
-    justify-content: center ;
-    /* Center the links on small screens */
-    gap: 1rem;
-    /* Add spacing between items */
-    flex-direction: row;
+    flex-wrap: wrap;  /* Allow links to wrap if necessary */
+    justify-content: center;
+    gap: 1rem;  /* Space between links */
+    flex-direction: row;  /* Ensure they remain in a row on small screens */
   }
 
   footer a {
     margin: 0 1rem; /* Add space between links */
   }
 }
+
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
-
   /* Header */
   nav {
     display: block;
@@ -174,4 +180,13 @@ footer a {
   .nav-toggle-label {
     display: none;
   }
+  
 }
+ /* Center the signup form within the main element */
+ #signup {
+  display: flex;
+  justify-content: center;
+  /* Centers horizontally */
+  align-items: center;
+  /* Centers vertically */
+  
