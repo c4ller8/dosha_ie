@@ -24,7 +24,7 @@
 <body>
 
     <header>
-        <a href="index.html">
+        <a href="email_signup.html">
             <h1 id="logo">Dosha.ie</h1>
         </a>
         <input type="checkbox" id="nav-toggle" name="nav-toggle">
@@ -48,12 +48,33 @@
     </header>
 
     <main>
-        <h1 class="charm-regular">Dosha page for individuals seeking ayurvedic knowledge</h1>
-        <h2>Doshas refer to three cogntive impressions known as vata pitta and kapha.
-            Each of three energies believed to circulate in the body and govern physiological activity, 
-            their differing proportions determining individual temperament and physical constitution.
-            when unbalanced they can cause dispositions to particular physical and mental disorders.
-        </h2>
+        <h1 class="charm-regular">For individuals seeking enlightenment on ayurvedic knowledge</h1>
+        <img src="assets/images/Ayurveda_humors.svg.png" alt="circle with pentagram and ayurvedic humours arranged on top.
+        in the circle and around star are the words movement, cold, light, cohesion, and transformation.
+        further in the star points are the words ether earth water fire air. in the center of the star it is split in three and the word sections say vatha, kaptha, pitha">
+        <section id="signup">
+            <form id="signup-form" method="POST" action="https://formdump.codeinstitute.net">
+                <h3 class="lato_bold">Let's get you signed up!</span></h3>
+                <label for="first-name">First Name</label>
+                <input type="text" name="first_name" id="first-name" class="text-input" required>
+                <br>
+                <label for="last-name">Last Name</label>
+                <input type="text" name="last_name" id="last-name" class="text-input" required>
+                <br>
+                <label for="email-address">Email Address</label>
+                <input type="email" name="email_address" id="email-address" class="text-input" required>
+                <br>
+                <div class="radio-buttons"><span class="underline">Get tips on Yor Dosha!</span>
+                    <div><label for="vata">Vata</label>
+                        <input type="radio" name="dosha_newsletter" id="vata" value="vata" required checked></div>
+                    <div><label for="pitta">Pitta</label>
+                        <input type="radio" name="dosha_newsletter" id="pitta" value="pitta" required></div>
+                    <div><label for="kapha">Kapha</label>
+                        <input type="radio" name="dosha_newsletter" id="kapha" value="kapha" required></div>
+                </div>
+                <button type="submit" class="join-button">Respect the Balance!</button>
+            </form>
+        </section>
     </main>
 
     <footer>
