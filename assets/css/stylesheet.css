@@ -108,7 +108,7 @@ h2, h3{
 
 /* main */
   main {
-    background-color: darkslategrey;
+    background-color: darkgray;
         /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 48px;
