@@ -44,10 +44,12 @@ body {
   line-height: 1.5;
 }
 
-h1, h2, h3, a {
+h1, a {
   font-family: Charm, Lato;
 }
-
+h2, h3{
+  font-family: lato;
+}
   /* header */
   header {
     background-color: green;
@@ -104,13 +106,43 @@ h1, h2, h3, a {
     flex: 1 0 auto;
     margin-top: 48px;
   }
-/* footer */
+/* Footer */
+footer {
+  background-color: green;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* Ensure alignment is consistent */
+  flex-wrap: wrap;
+  /* Allow wrapping if there's not enough space */
+  padding: 1rem;
+  /* Add some spacing for better UX */
+}
+
+footer a {
+  text-decoration: none;
+  color: inherit;
+  margin: 0 0.5rem;
+  /* Add spacing between links */
+  white-space: nowrap;
+  /* Prevent links from wrapping individually */
+}
+/* Media query for small screens */
+@media screen and (max-width: 767px) {
   footer {
-    background-color: green;
-    display: block;
-    position: relative;
-    color: inherit;
+    flex-wrap: nowrap;
+    /* Prevent wrapping */
+    justify-content: center ;
+    /* Center the links on small screens */
+    gap: 1rem;
+    /* Add spacing between items */
+    flex-direction: row;
   }
+
+  footer a {
+    margin: 0 1rem; /* Add space between links */
+  }
+}
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
