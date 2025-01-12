@@ -25,6 +25,10 @@
   font-style: normal;
 }
 
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
   padding: 0;
@@ -50,6 +54,7 @@ h1, a {
 h2, h3{
   font-family: lato;
 }
+
   /* header */
   header {
     background-color: green;
@@ -77,6 +82,7 @@ h2, h3{
   .active{
     border-bottom: 1px solid green;
   }
+
 /* navbar toggle */
   nav{
     position: absolute;
@@ -99,6 +105,7 @@ h2, h3{
 .nav-toggle-label {
   font-size: 2rem;
 }
+
 /* main */
   main {
     background-color: darkslategrey;
@@ -106,6 +113,7 @@ h2, h3{
     flex: 1 0 auto;
     margin-top: 48px;
   }
+  
 /* Footer */
 footer {
   background-color: green;
