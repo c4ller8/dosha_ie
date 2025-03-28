@@ -42,7 +42,7 @@ body {
   display: flex;
   flex-direction: column;
   /* Default display to dark mode */
-  background-color: darkslategrey;
+  background-color: #2f4f4f;
   color: white;
   font-size: 16px;
   line-height: 1.5;
@@ -87,7 +87,7 @@ h2, h3, p {
   nav{
     position: absolute;
     background-color: #006600;
-    color: white;
+    color: #ffffff;
     width: 100%;
     left: 0;
     padding: 0 1rem;
@@ -108,7 +108,7 @@ h2, h3, p {
 
 /* main */
   main {
-    background-color: darkgray;
+    background-color: #A21079;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     /* Ensures main element takes up available space */
@@ -121,7 +121,8 @@ h2, h3, p {
     /* Align content at the top */
     width: 100%;
   }
- 
+
+
 /* Footer */
 footer {
   background-color: #006600;
@@ -183,10 +184,10 @@ footer a {
   
 }
  /* Center the signup form within the main element */
- #signup {
+#signup {
   display: flex;
   justify-content: center;
   /* Centers horizontally */
   align-items: center;
-  /* Centers vertically */
- }
+  /* Centers vertically */ 
+}
