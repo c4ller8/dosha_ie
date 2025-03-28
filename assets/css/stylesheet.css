@@ -62,7 +62,7 @@ h2, h3, p {
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 4px 4px green;
+    box-shadow: 0 4px 4px #006600;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -80,13 +80,13 @@ h2, h3, p {
     margin-bottom: 1em;
   }
   .active{
-    border-bottom: 1px solid green;
+    border-bottom: 1px solid #006600;
   }
 
 /* navbar toggle */
   nav{
     position: absolute;
-    background-color: green;
+    background-color: #006600;
     color: white;
     width: 100%;
     left: 0;
@@ -124,7 +124,7 @@ h2, h3, p {
  
 /* Footer */
 footer {
-  background-color: green;
+  background-color: #006600;
   display: flex;
   justify-content: space-between;
   align-items: center;
