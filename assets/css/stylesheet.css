@@ -191,3 +191,9 @@ footer a {
   align-items: center;
   /* Centers vertically */ 
 }
+
+/* Media query: small laptops and larger (992px and up) */
+@media screen and (min-width: 992px) {
+  #menu a:hover{border-bottom: 1px solid #006600;
+  }
+}
