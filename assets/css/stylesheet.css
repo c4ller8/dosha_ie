@@ -48,15 +48,10 @@ body {
   line-height: 1.5;
 }
 
-h1, a {
-  font-family: Charm, Lato;
-}
-h2, h3, p {
-  font-family: lato;
-}
 
-  /* header */
-  header {
+
+/* header */
+header {
     background-color: #006600;
     padding: 0 1rem;
     position: fixed;
@@ -67,21 +62,33 @@ h2, h3, p {
     justify-content: space-between;
     align-items: baseline;
   }
-  header a {
+
+header a {
       text-decoration: none;
       color: inherit;
-  }
-  #menu {
-    font-size: 110%;
-    letter-spacing: 2px;
-    list-style-type: none;
-  }
-  #menu > li {
+}
+
+h1, a {
+  font-family: Charm, Lato;
+}
+
+h2, h3, p {
+  font-family: lato;
+}
+
+#menu {
+  font-size: 110%;
+  letter-spacing: 2px;
+  list-style-type: none;
+}
+
+#menu > li {
     margin-bottom: 1em;
   }
+
   .active {
     border-bottom: 1px solid #A21079;
-  }
+}
 
 /* navbar toggle */
   nav {
@@ -94,10 +101,12 @@ h2, h3, p {
     display: none;
     top: 100%;
   }
-  /* Nav toggle */
+
+/* Nav toggle */
 #nav-toggle:checked~nav {
   display: block;
 }
+
 #nav-toggle {
   display: none;
 }
