@@ -86,11 +86,11 @@ h2, h3, p {
     margin-bottom: 1em;
   }
 
-  .active {
+.active {
     border-bottom: 1px solid #A21079;
 }
 
-/* navbar toggle */
+/* navbar styles with dropdown toggle */
   nav {
     position: absolute;
     background-color: #006600;
@@ -102,7 +102,7 @@ h2, h3, p {
     top: 100%;
   }
 
-/* Nav toggle */
+
 #nav-toggle:checked~nav {
   display: block;
 }
@@ -130,7 +130,6 @@ h2, h3, p {
     /* Align content at the top */
     width: 100%;
   }
-
 
 /* Footer */
 footer {
@@ -187,6 +186,11 @@ footer a {
     padding-left: 1rem;
   }
 
+    #menu a:hover {
+      border-bottom: 1px solid #A21079;
+    }
+  }
+
   .nav-toggle-label {
     display: none;
   }
@@ -202,8 +206,4 @@ footer a {
 }
 
 /* Media query: small laptops and larger (992px and up) */
-@media screen and (min-width: 992px) {
-  #menu a:hover {
-    border-bottom: 1px solid #A21079;
-  }
-}
+@media screen and (min-width: 992px) {}
