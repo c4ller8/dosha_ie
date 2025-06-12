@@ -71,20 +71,20 @@ h2, h3, p {
       text-decoration: none;
       color: inherit;
   }
-  #menu{
+  #menu {
     font-size: 110%;
     letter-spacing: 2px;
     list-style-type: none;
   }
-  #menu > li{
+  #menu > li {
     margin-bottom: 1em;
   }
-  .active{
+  .active {
     border-bottom: 1px solid #A21079;
   }
 
 /* navbar toggle */
-  nav{
+  nav {
     position: absolute;
     background-color: #006600;
     color: #ffffff;
