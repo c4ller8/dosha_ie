@@ -1,9 +1,25 @@
 # dosha.ie
-Postmodern audiences question grand narratives and embrace deconstruction of tradition. Deconstructivism, decolonialism, and eastern medical literacy challenge established structures in western culture, can lead with empowering individuals to navigate and question these systems, aligning with a "cognitive fingerprint" i.e model of behaviour called a dosha
-using ayurvedic knowledge. Ayurveda is the traditional practice of medicine in hinduism, not commonly found in christian/catholic communities, so there is a gap in the irish market that could lead to a mutally beneficial relationsip for irish clients and practitioners.
 
-Value exchange:
-External User's Goal: To learn about ayurveda, explore its Material and conceptual elements, engage critically with ideas, and find inspiration or resources.
+## Description
+Dosha.ie is a website for people looking to learn body/mind self-improvement techniques based on natural medicine.
+Ayurveda, is the traditional practice of medicine in hinduism. Dosha.ie aims to guide individuals
+to discovder their "dosha" or "cognitive fingerprint" using ayurvedic knowledge and a link to a personailty test.
 
-Site Owner's Goal: To educate, build credibility of eastern practice in western audiences, foster engagement, and potentially promote products, services, or monetize the site through traffic.
 
+## Features
+1. Navigation
+2. Home index
+3. Dharma page
+4. Balancing Dharma page
+5. Ayurveda explained 
+6. Relevence page 
+7. Ayurgenomics page
+8. Sign up page
+9. Footer section
+10. Dosha test link
+
+## How to View the Project
+- [View the deployed website](https://c4ller8.github.io/dosha_ie/what_is_ayurveda.html)
+
+## Credits
+- Thanks to code institute Student care. 
