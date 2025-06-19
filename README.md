@@ -18,7 +18,7 @@ to discovder their "dosha" or "cognitive fingerprint" using ayurvedic knowledge 
 10. Dosha test link
 
 ## Wireframe 
-    <img src="assets/images/dosha.ie wireframe.png" alt="wireframe explaining features and the user interaction flow between them"> 
+<img src="assets/images/dosha.ie wireframe.png" alt="wireframe explaining features and the user interaction flow between them"> 
 
 ## How to View the Project
 - [View the deployed website](https://c4ller8.github.io/dosha_ie/what_is_ayurveda.html)
