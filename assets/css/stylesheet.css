@@ -37,6 +37,8 @@ html {
 }
 
 /* General style rules */
+/* Media query for small screens (up to 767px) */
+@media screen and (max-width: 767px) {
 body {
   min-height: 100vh;
   display: flex;
