@@ -50,8 +50,6 @@ body {
   line-height: 1.5;
 }
 
-
-
 /* header */
 header {
     background-color: #006600;
@@ -112,13 +110,16 @@ h2, h3, p {
 #nav-toggle:checked~nav {
   display: block;
 }
-
+/* commenting out rule thats hiding nav toggle
 #nav-toggle {
   display: none;
 }
+*/
 
 .nav-toggle-label {
   font-size: 2rem;
+  color: #ffffff;  /* Add this to ensure visibility against green background */
+  cursor: pointer; /* Add pointer cursor for better UX */
 }
 
 /* main */
