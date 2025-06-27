@@ -157,8 +157,6 @@ footer a {
   /* Prevent links from wrapping individually */
 }
 
-/* Media query for small screens (up to 767px) */
-@media screen and (max-width: 767px) {
   footer {
     flex-wrap: wrap;  /* Allow links to wrap if necessary */
     justify-content: center;
