@@ -1,5 +1,5 @@
 /* Google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Charm:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Charm:wght@400;700&display=swap");
 
 .lato-regular {
   font-family: "Lato", serif;
@@ -39,19 +39,19 @@ html {
 /* General style rules */
 /* Media query for small screens (up to 767px) */
 @media screen and (max-width: 767px) {
-body {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  /* Default display to dark mode */
-  background-color: #2f4f4f;
-  color: white;
-  font-size: 16px;
-  line-height: 1.5;
-}
+  body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Default display to dark mode */
+    background-color: #2f4f4f;
+    color: white;
+    font-size: 16px;
+    line-height: 1.5;
+  }
 
-/* header */
-header {
+  /* header */
+  header {
     background-color: #006600;
     padding: 0 1rem;
     position: fixed;
@@ -63,38 +63,41 @@ header {
     align-items: baseline;
   }
 
-header a {
-      text-decoration: none;
-      color: inherit;
-}
+  header a {
+    text-decoration: none;
+    color: inherit;
+  }
 
-h1, a {
-  font-family: Charm, Lato;
-}
+  h1,
+  a {
+    font-family: Charm, Lato;
+  }
 
-h2, h3, p {
-  font-family: lato;
-}
+  h2,
+  h3,
+  p {
+    font-family: lato;
+  }
 
-#menu {
-  font-size: 110%;
-  letter-spacing: 2px;
-  list-style-type: none;
-}
+  .menu {
+    font-size: 110%;
+    letter-spacing: 2px;
+    list-style-type: none;
+  }
 
-#menu > li {
+  .menu > li {
     margin-bottom: 1em;
   }
 
-#menu a:hover {
-  border-bottom: 1px solid #750A59;
+  .menu a:hover {
+    border-bottom: 1px solid #750a59;
   }
 
-.active {
-    border-bottom: 1px solid #750A59;
-}
+  .active {
+    border-bottom: 1px solid #750a59;
+  }
 
-/* navbar styles with dropdown toggle */
+  /* navbar styles with dropdown toggle */
   nav {
     position: absolute;
     background-color: #006600;
@@ -106,25 +109,24 @@ h2, h3, p {
     top: 100%;
   }
 
-
-#nav-toggle:checked~nav {
-  display: block;
-}
-/* commenting out rule thats hiding nav toggle
+  #nav-toggle:checked ~ nav {
+    display: block;
+  }
+  /* commenting out rule thats hiding nav toggle
 #nav-toggle {
   display: none;
 }
 */
 
-.nav-toggle-label {
-  font-size: 2rem;
-  color: #ffffff;  /* Add this to ensure visibility against green background */
-  cursor: pointer; /* Add pointer cursor for better UX */
-}
+  .nav-toggle-label {
+    font-size: 2rem;
+    color: #ffffff; /* Add this to ensure visibility against green background */
+    cursor: pointer; /* Add pointer cursor for better UX */
+  }
 
-/* main */
+  /* main */
   main {
-    background-color: #750A59;
+    background-color: #750a59;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     /* Ensures main element takes up available space */
@@ -138,33 +140,33 @@ h2, h3, p {
     width: 100%;
   }
 
-/* Footer */
-footer {
-  background-color: #006600;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  /* Ensure alignment is consistent */
-  flex-wrap: wrap;
-  /* Allow wrapping if there's not enough space */
-  padding: 1rem;
-  /* Add some spacing for better UX */
-}
+  /* Footer */
+  footer {
+    background-color: #006600;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* Ensure alignment is consistent */
+    flex-wrap: wrap;
+    /* Allow wrapping if there's not enough space */
+    padding: 1rem;
+    /* Add some spacing for better UX */
+  }
 
-footer a {
-  text-decoration: none;
-  color: inherit;
-  margin: 0 0.5rem;
-  /* Add spacing between links */
-  white-space: nowrap;
-  /* Prevent links from wrapping individually */
-}
+  footer a {
+    text-decoration: none;
+    color: inherit;
+    margin: 0 0.5rem;
+    /* Add spacing between links */
+    white-space: nowrap;
+    /* Prevent links from wrapping individually */
+  }
 
   footer {
-    flex-wrap: wrap;  /* Allow links to wrap if necessary */
+    flex-wrap: wrap; /* Allow links to wrap if necessary */
     justify-content: center;
-    gap: 1rem;  /* Space between links */
-    flex-direction: row;  /* Ensure they remain in a row on small screens */
+    gap: 1rem; /* Space between links */
+    flex-direction: row; /* Ensure they remain in a row on small screens */
   }
 
   footer a {
@@ -183,27 +185,28 @@ footer a {
     padding-right: 1rem;
   }
 
-  #menu {
+  .menu {
     display: flex;
   }
 
-  #menu>li {
+  .menu > li {
     padding-left: 1rem;
   }
 }
 
-  .nav-toggle-label {
-    display: none;
-  }
+.nav-toggle-label {
+  display: none;
+}
 
- /* Center the signup form within the main element */
+/* Center the signup form within the main element */
 #signup {
   display: flex;
   justify-content: center;
   /* Centers horizontally */
   align-items: center;
-  /* Centers vertically */ 
+  /* Centers vertically */
 }
 
 /* Media query: small laptops and larger (992px and up) */
-@media screen and (min-width: 992px) {}
+@media screen and (min-width: 992px) {
+}
