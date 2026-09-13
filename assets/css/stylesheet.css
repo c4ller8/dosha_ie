@@ -79,13 +79,7 @@ html {
     font-family: lato;
   }
 
-  .menu {
-    font-size: 110%;
-    letter-spacing: 2px;
-    list-style-type: none;
-  }
-
-  .menu > li {
+  § .menu > li {
     margin-bottom: 1em;
   }
 
