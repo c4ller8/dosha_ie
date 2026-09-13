@@ -106,23 +106,25 @@ html {
     width: 100%;
     left: 0;
     padding: 0 1rem;
+    box-shadow: 0 2px 2px #ffffff;
     display: none;
     top: 100%;
+  }
+
+  #nav-toggle {
+    display: none; /* Hides the actual checkbox */
   }
 
   #nav-toggle:checked ~ nav {
     display: block;
   }
-  /* commenting out rule thats hiding nav toggle
-#nav-toggle {
-  display: none;
-}
-*/
 
   .nav-toggle-label {
     font-size: 2rem;
-    color: #ffffff; /* Add this to ensure visibility against green background */
-    cursor: pointer; /* Add pointer cursor for better UX */
+    color: #ffffff;
+    /* Add this to ensure visibility against green background */
+    cursor: pointer;
+    /* Add pointer cursor for better UX */
   }
 
   /* main */
@@ -186,6 +188,14 @@ html {
     padding-right: 1rem;
   }
 
+  #nav-toggle {
+    display: none;
+  }
+
+  .nav-toggle-label {
+    display: none;
+  }
+
   .menu {
     display: flex;
   }
@@ -193,10 +203,6 @@ html {
   .menu > li {
     padding-left: 1rem;
   }
-}
-
-.nav-toggle-label {
-  display: none;
 }
 
 /* Center the signup form within the main element */
