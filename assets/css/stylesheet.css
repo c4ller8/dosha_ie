@@ -136,6 +136,24 @@ main {
   width: 100%;
 }
 
+iframe {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  height: auto;
+  margin: 0 auto;
+  border: 0;
+}
+
+/* Center the signup form within the main element */
+#signup {
+  display: flex;
+  justify-content: center;
+  /* Centers horizontally */
+  align-items: center;
+  /* Centers vertically */
+}
+
 /* Media query for small screens (up to 767px) */
 @media screen and (max-width: 767px) {
   /* navbar styles with dropdown toggle */
@@ -194,15 +212,6 @@ main {
   .menu > li {
     padding-left: 1rem;
   }
-}
-
-/* Center the signup form within the main element */
-#signup {
-  display: flex;
-  justify-content: center;
-  /* Centers horizontally */
-  align-items: center;
-  /* Centers vertically */
 }
 
 /* Media query: small laptops and larger (992px and up) */
