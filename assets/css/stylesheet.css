@@ -37,67 +37,82 @@ html {
 }
 
 /* General style rules */
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* Default display to dark mode */
+  background-color: #750a59;
+  color: white;
+  font-size: 16px;
+  line-height: 1.5;
+}
+/* header */
+header {
+  background-color: #006600;
+  padding: 0 1rem;
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  box-shadow: 0 4px 4px #006600;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+header a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1,
+a {
+  font-family: Charm, Lato;
+}
+
+h2,
+h3,
+p {
+  font-family: lato;
+}
+
+.menu {
+  font-size: 110%;
+  letter-spacing: 2px;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.menu > li {
+  margin-bottom: 1em;
+}
+
+.menu a:hover {
+  border-bottom: 1px solid #750a59;
+}
+
+.active {
+  border-bottom: 1px solid #750a59;
+}
+
+/* main */
+main {
+  background-color: #750a59;
+  /* Make main element take up any surplus space to push footer down */
+  flex: 1 0 auto;
+  /* Ensures main element takes up available space */
+
+  margin-top: 58px;
+  display: flex;
+  flex-direction: column;
+  /* Arrange content vertically */
+  justify-content: flex-start;
+  /* Align content at the top */
+  width: 100%;
+}
+
 /* Media query for small screens (up to 767px) */
 @media screen and (max-width: 767px) {
-  body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    /* Default display to dark mode */
-    background-color: #2f4f4f;
-    color: white;
-    font-size: 16px;
-    line-height: 1.5;
-  }
-
-  /* header */
-  header {
-    background-color: #006600;
-    padding: 0 1rem;
-    position: fixed;
-    z-index: 99;
-    width: 100%;
-    box-shadow: 0 4px 4px #006600;
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-  }
-
-  header a {
-    text-decoration: none;
-    color: inherit;
-  }
-
-  h1,
-  a {
-    font-family: Charm, Lato;
-  }
-
-  h2,
-  h3,
-  p {
-    font-family: lato;
-  }
-
-  .menu {
-    font-size: 110%;
-    letter-spacing: 2px;
-    list-style-type: none;
-    padding-left: 0;
-  }
-
-  .menu > li {
-    margin-bottom: 1em;
-  }
-
-  .menu a:hover {
-    border-bottom: 1px solid #750a59;
-  }
-
-  .active {
-    border-bottom: 1px solid #750a59;
-  }
-
   /* navbar styles with dropdown toggle */
   nav {
     position: absolute;
@@ -127,22 +142,6 @@ html {
     /* Add pointer cursor for better UX */
   }
 
-  /* main */
-  main {
-    background-color: #750a59;
-    /* Make main element take up any surplus space to push footer down */
-    flex: 1 0 auto;
-    /* Ensures main element takes up available space */
-
-    margin-top: 58px;
-    display: flex;
-    flex-direction: column;
-    /* Arrange content vertically */
-    justify-content: flex-start;
-    /* Align content at the top */
-    width: 100%;
-  }
-
   /* Footer */
   footer {
     background-color: #006600;
@@ -154,26 +153,18 @@ html {
     /* Allow wrapping if there's not enough space */
     padding: 1rem;
     /* Add some spacing for better UX */
+    gap: 1rem;
+    /* Space between links */
+    flex-direction: column;
+    /* Ensure they remain in a row on small screens */
   }
 
   footer a {
     text-decoration: none;
     color: inherit;
-    margin: 0 0.5rem;
-    /* Add spacing between links */
+    margin: 0 0 1rem; /* Add space between links */
     white-space: nowrap;
     /* Prevent links from wrapping individually */
-  }
-
-  footer {
-    flex-wrap: wrap; /* Allow links to wrap if necessary */
-    justify-content: center;
-    gap: 1rem; /* Space between links */
-    flex-direction: row; /* Ensure they remain in a row on small screens */
-  }
-
-  footer a {
-    margin: 0 1rem; /* Add space between links */
   }
 }
 
