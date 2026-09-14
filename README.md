@@ -15,18 +15,22 @@ The content provides introductory information on Ayurveda, guiding visitors towa
 - Links to Home via the logo, plus Dharma, Balance, Ayurveda, and Relevance in the menu.
 - Mobile: collapses into a toggle shown as the site favicon (a rainbow silhouette representing the doshas). Desktop: displays inline.
 - Lets users move between pages on any device without using the back button.
+  ![Screenshot of dosha.ie mobile Navigation Bar](assets/images/mobile_navbar.png)
+  ![Screenshot of dosha.ie inline Navigation Bar](assets/images/inline_navbar.png)
 
 2. Home Page (`index.html`)
 
 - Introduces Dosha.ie and the three doshas (vata, pitta, kapha).
 - Embeds a YouTube video explaining body types per Ayurveda.
 - Highlights the nav toggle image and video as the two ways to explore further.
+  ![Screenshot of dosha.ie homepage](assets/images/dosha.ie_homepage.png)
 
 3. Dharma Page (`dharma.html`)
 
 - Introduces dharma as a core concept in Hinduism, Buddhism, and other Eastern philosophies, covering duty, moral responsibility, and spiritual purpose.
 - Explores how dharma is tested when duties conflict (e.g., business leaders balancing employees, customers, and shareholders) and how it guides ethical decision-making.
 - Details specific virtues such as **Ahimsa** (non-violence) and **Yoga** as disciplined spiritual practice, each with supporting imagery.
+  ![Screenshot of dosha.ie Dharma page](assets/images/dharmapage.png)
 
 4. Balance Page (`balance.html`)
 
@@ -34,6 +38,7 @@ The content provides introductory information on Ayurveda, guiding visitors towa
 - Introduces Prakriti (Ayurvedic constitution) as the foundation for making choices that align with one's nature.
 - Connects Dharma and Prakriti as complementary guides for ethical, balanced living.
 - Embeds a YouTube video on a doctor's guide to meditation.
+  ![Screenshot of dosha.ie Balance page](assets/images/balancepage.png)
 
 5. Ayurveda Page (`what_is_ayurveda.html`)
 
@@ -41,6 +46,7 @@ The content provides introductory information on Ayurveda, guiding visitors towa
 - Explains the three doshas (Vata, Pitta, Kapha), the five elements, and how balancing them supports physical and mental wellbeing.
 - Outlines the benefits of Ayurvedic practice — natural healing, improved digestion, reduced stress, better sleep — with a concluding section on holistic health.
 - Features a hero image of an Ayurvedic garden setting to reinforce the holistic-therapy theme.
+  ![Screenshot of dosha.ie ayurveda page](assets/images/ayurveda.png)
 
 6. Relevance Page (`relevance.html`)
 
@@ -48,6 +54,7 @@ The content provides introductory information on Ayurveda, guiding visitors towa
 - Draws parallels between the doshas and the Myers-Briggs Type Indicator (Vata/Intuition, Pitta/Thinking, Kapha/Sensing).
 - Links the doshas to Carl Jung's archetypes (Vata/Anima, Kapha/Self), framing Ayurveda as compatible with Western psychology.
 - Suggests practical applications for each dosha type — grounding for Vata, stress management for Pitta, avoiding complacency for Kapha.
+  ![Screenshot of dosha.ie ayurveda page](assets/images/relevance.png)
 
 7. Sign-Up Page (`email_signup.html`)
 
@@ -56,16 +63,19 @@ The content provides introductory information on Ayurveda, guiding visitors towa
 - Radio button selection lets users pick which dosha (Vata, Pitta, Kapha) they want tips for — Vata is pre-selected.
 - Form submits via POST to Code Institute's formdump endpoint for testing.
 - Includes an Ayurvedic diagram image (the five elements and three doshas) above the form.
+  ![Screenshot of dosha.ie signup page](assets/images/email_signup.png)
 
 8. Footer
 
 - Repeats on every page with links to Contact and an external "Find your Dosha" test.
 - External link opens in a new tab with `rel="noopener noreferrer"` for safety.
+  ![Screenshot of dosha.ie footer](assets/images/footer.png)
 
 9. External Dosha Test
 
 - Links to Kripalu's "What's Your Dosha?" quiz.
 - Gives users a practical, interactive starting point beyond the site's info.
+  ![Screenshot of dosha.ie link to test element](assets/images/external_dosha_test_link.png)
 
 ## Testing
 
