@@ -106,6 +106,7 @@ Tested at the following breakpoints using browser DevTools and a multi-viewport 
 - **Bullet points on nav list** — `list-style-type: none` was applied to the wrong element. Added `.menu ul { list-style-type: none; }`.
 - **Footer breaking below 560px** — caused by fixed-width YouTube iframe. Fixed with `max-width: 100%` and `aspect-ratio`.
 - **Layout breaking above 768px** — most rules were trapped inside the mobile-only media query. Separated into general / mobile / tablet blocks.
+- **Typo in signup form breaking lato-regular font visibility** — checked class selector labels and changed an underscore back to correct hyphen.
 
 ### Known Issues
 
